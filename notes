@@ -1,0 +1,40 @@
+Chapter 1 Building Abstractions with Procedures
+
+computational process, data, program, programming language
+Lisp, LISt Processing, 1950s, John McCarthy, recursion equations, interpreter
+Scheme
+
+                      data            procedures
+primitive expressions 1 2             + -
+means of combination  (1 2)           (+ 1 2)
+means of abstraction  (define size 1) (define sum(x y) (+ x y))
+
+combination = (operator operands...)
+value = (operator arguments...)
+prefix notation: no ambiguity, nested
+pretty-printing
+read-eval-print loop
+
+(define variable value) special form
+global environment
+
+recursive
+tree accumulation
+combination vs special form
+procedure definition: (define (<name> <formal parameters>) <body>) special form
+compound procedure
+
+substitution model
+applicative order vs normal order
+
+case analysis
+(cond (<p1> <e1>) special form
+      (<p2> <e2>)
+      (<pn> <en>))
+clause: (<p> <e>)
+predicate
+(if <predicate> <consequent> <alternative>) special form
+logical composition operations:
+    (and <e1> ... <en>) special form
+    (or <e1> ... <en>) special form
+    (not <e1> ... <en>) ordinary precedure
