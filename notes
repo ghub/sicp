@@ -43,3 +43,9 @@ mathematical functions vs computer procedures: procedures must be effective
 properties (what) vs how
 declarative knowledge vs imperative knowledge
 
+recursive
+procedure
+    accomplishes an identifiable task
+    suppress detail
+    independent of the parameter names
+free vs bound variable, scope, capture
