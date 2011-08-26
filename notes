@@ -4,6 +4,8 @@ computational process, data, program, programming language
 Lisp, LISt Processing, 1950s, John McCarthy, recursion equations, interpreter
 Scheme
 
+1.1  The Elements of Programming
+
                       data            procedures
 primitive expressions 1 2             + -
 means of combination  (1 2)           (+ 1 2)
@@ -49,3 +51,15 @@ procedure
     suppress detail
     independent of the parameter names
 free vs bound variable, scope, capture
+
+block structure
+lexical scoping
+
+1.2 Procedures and the Processes They Generate
+
+A procedure is a pattern for the local evolution of a computational process.
+
+deferred operations, recursive process, linear recursive process
+state variables, iterative process, linear iterative process
+recursive process vs recursive procedure
+tail-recursive
