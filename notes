@@ -1,6 +1,12 @@
 Chapter 1 Building Abstractions with Procedures
 
+Human understanding
+    Combine
+    Compare
+    Abstract
+
 computational process, data, program, programming language
+bugs, glitches, debug
 Lisp, LISt Processing, 1950s, John McCarthy, recursion equations, interpreter
 Scheme
 
@@ -63,3 +69,5 @@ deferred operations, recursive process, linear recursive process
 state variables, iterative process, linear iterative process
 recursive process vs recursive procedure
 tail-recursive
+
+tree recursion
