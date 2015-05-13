@@ -45,7 +45,7 @@ predicate
 logical composition operations:
     (and <e1> ... <en>) special form
     (or <e1> ... <en>) special form
-    (not <e1> ... <en>) ordinary precedure
+    (not <e>) ordinary precedure
 
 mathematical functions vs computer procedures: procedures must be effective
 properties (what) vs how
